@@ -32,19 +32,42 @@ nav{
     padding-right: 20px;
     background-color: darkblue;
 }
-
-a{
+header a{
     color: white;
     text-decoration: none;
     font-size: 1.5rem;
     padding:10px;
-
 }
 
 
 
-p{
+header p{
     font-size: 1.5rem;
 }
 
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+}
 
+.topic{
+    max-width: 30%;
+    background-color: darkcyan;
+    margin: 15px;
+    text-align: center;
+}
+
+p{
+    background-color: darkgoldenrod;
+    margin: 0;
+}
+
+h2{
+    background-color: darkgrey;
+    margin-bottom: 5px;
+}
+
+/* Tablet view  */
+@media()
