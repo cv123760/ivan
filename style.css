@@ -53,7 +53,7 @@ main{
 }
 
 .topic{
-    max-width: 30%;
+    max-width: 28%;
     background-color: darkcyan;
     margin: 15px;
     text-align: center;
@@ -68,6 +68,17 @@ h2{
     background-color: darkgrey;
     margin-bottom: 5px;
 }
-/* 
-Tablet view 
-@media() */
+
+/* Tablet view  */
+@media(max-width: 768px){
+    .topic{
+        min-width: 45%;
+    }
+}
+
+
+@media(max-width: 616px){
+    .topic{
+        max-width: 100%;
+    }
+}
