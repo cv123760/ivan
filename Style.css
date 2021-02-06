@@ -1,0 +1,142 @@
+body{
+    background-image: url(images/eliseo.jpg);
+    background-size: cover;
+    margin:0
+}
+
+.container{
+    max-width: 1024px;
+    margin:auto;
+    background-color: rgba(0, 0, 0, 0.562);
+}
+
+/* style header section */
+header{
+    background-color: rgba(0, 0, 0, 0.616);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;   
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+h1{
+    background-color: white;
+    margin:0;
+    padding:0;
+}
+
+h1:hover{
+    color:black;
+    background-color: white;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+}
+
+.menu{
+
+    background-color: rgba(0, 0, 0, 0);
+    display: none;
+    height: 40px;
+
+}
+
+
+/* style main section on index */
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color:white
+}
+
+.topic{
+    margin: 30px ;
+    width: 40%;
+}
+
+img:hover{
+    transform: scale(1.075);
+    transition-duration: 1s;
+}
+
+.topic h2 {
+    margin: 5px;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.topic p{
+    width:100%;
+    text-align: center;
+
+}
+
+
+/* Smaller devices */
+@media(max-width: 816px){
+
+
+    .container{
+        margin:0;
+    }
+
+
+/* header section  */
+    header{
+
+        padding: 0;   
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+    
+    .topic{
+        width: 100%;
+        margin: 0;
+    }
+
+/* main section  */
+    img{
+        margin:0;
+    }
+    
+
+    h2{
+        margin: 0;
+        font-size: 1.5rem;
+        margin-top: 5px;
+    }
+    
+    p{
+        font-size: 1rem;
+        margin-top: 2px;
+        margin-bottom: 15px;
+    }
+
+    a{
+        display:none;
+    }
+
+    .logo, .menu{
+        display: inline-block;
+    }
+}
+
+@media(max-width: 600px){
+    
+}
