@@ -57,13 +57,13 @@ a:hover{
 main{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     color:white
 }
 
 .topic{
-    margin: 30px 20px;
-    width: 45%;
+    margin: 30px ;
+    width: 40%;
 }
 
 img:hover{
@@ -94,25 +94,38 @@ img:hover{
     }
 
 
-    /* header section  */
+/* header section  */
     header{
 
         padding: 0;   
         margin-bottom: 20px;
     }
 
+    h1{
+        font-size: 1.5rem;
+    }
     
     .topic{
         width: 100%;
         margin: 0;
     }
 
+/* main section  */
     img{
         margin:0;
     }
     
+
     h2{
         margin: 0;
+        font-size: 1.5rem;
+        margin-top: 5px;
+    }
+    
+    p{
+        font-size: 1rem;
+        margin-top: 2px;
+        margin-bottom: 15px;
     }
 
     a{
